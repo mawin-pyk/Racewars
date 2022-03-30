@@ -1,0 +1,68 @@
+.SignIn {
+    min-height: 100%;
+    margin-top: -146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignIn form {
+    width: 337.5px;
+    margin-top: 146px
+}
+
+.SignIn h2 {
+    margin-bottom: 10px;
+    color: #3098d9;
+}
+
+.SignIn label {
+    margin: 10px 0px;
+}
+
+.SignIn input {
+    margin: 10px 0px;
+}
+
+.SignIn p {
+    color: #f44336;
+    font-size: 14px;
+}
+
+.SignIn button {
+    margin: 10px auto;
+}
+
+.SignIn h3 {
+    width: 70px;
+    margin-top: 10px;
+    color: #3098d9;
+}
+
+.SignIn h3:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+
+    .SignIn {
+        margin-top: -71px;
+    }
+
+    .SignIn form {
+        margin-top: 71px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .SignIn {
+        margin-top: -94px;
+    }
+
+    .SignIn form {
+        margin-top: 94px;
+    }
+
+}

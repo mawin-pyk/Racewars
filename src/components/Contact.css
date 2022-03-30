@@ -1,0 +1,98 @@
+.Contact {
+    min-height: 100%;
+}
+
+.contact-content {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.contact__map {
+    height: 50vh;
+    margin-top: 40px;
+}
+
+.contact__map iframe {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contact__bottom form {
+    margin-top: 40px;
+}
+
+.contact__bottom h2 {
+    margin-bottom: 10px;
+    color: #3098d9;
+}
+
+.contact__bottom label {
+    margin: 10px 0px;
+}
+
+.contact__bottom input {
+    margin: 10px 0px;
+}
+
+.contact__bottom textarea {
+    margin: 10px 0px;
+}
+
+.contact__bottom button {
+    margin: 10px auto 0px auto;
+}
+
+.contact__address {
+    margin: 40px 0px;
+    padding: 0px 20px;
+}
+
+.contact__address p {
+    margin: 20px 0px;
+}
+
+@media (min-width: 768px) {
+
+    .contact__bottom {
+        display: flex;
+    }
+
+    .contact__bottom form {
+        width: 337.5px;
+        margin: 40px 40px 40px 0px;
+    }
+
+    .contact__address {
+        margin: 60px 0px 0px 0px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .contact-content {
+        width: 1080px;
+        display: flex;
+    }
+
+    .contact__map {
+        width: 100vw;
+        height: 100vh;
+        margin-bottom: 40px;
+    }
+
+    .contact__bottom {
+        margin-left: 40px;
+        display: unset;
+    }
+
+    .contact__bottom form {
+        margin: 40px 0px 0px 0px;
+    }
+
+    .contact__address {
+        margin-top: 40px;
+    }
+
+}

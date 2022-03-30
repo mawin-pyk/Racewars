@@ -1,0 +1,157 @@
+.CartPage {
+    min-height: 100%;
+}
+
+.cart-page__content {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.cart-page__text {
+    height: 50vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cart-page__text a {
+    margin-top: 20px;
+    color: #3098d9;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cart-page__table {
+    margin-top: 40px;
+}
+
+.cart-page-table__image {
+    width: 120px;
+    height: 120px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.cart-page-table__image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cart-page-table__quantity {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cart-page-table__quantity button {
+    min-width: 30px;
+}
+
+.cart-page-table__quantity p {
+    min-width: 30px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cart-page__total {
+    margin-top: 40px;
+    text-align: end;
+}
+
+.cart-page__total span {
+    color: #f44336;
+}
+
+.cart-page__address {
+    margin-top: 40px;
+}
+
+.cart-page__address p {
+    margin: 20px 0px;
+}
+
+.cart-page__address p span {
+    font-weight: bold;
+}
+
+.cart-page__address button {
+    margin-right: 10px;
+}
+
+.cart-page__payment {
+    margin: 40px 0px;
+    text-align: end;
+}
+
+.cart-page__payment p {
+    margin: 20px 0px;
+}
+
+.cart-page__payment p span {
+    font-weight: bold;
+}
+
+.cart-page__order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cart-page__order label {
+    width: 130px;
+}
+
+.cart-page__order label:hover {
+    cursor: pointer;
+}
+
+.slip-image__link {
+    width: 220px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slip-image__link img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.slip-image__link svg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #f44336;
+}
+
+.slip-image__link svg:hover {
+    cursor: pointer;
+}
+
+.cart-page__order p {
+    margin: 10px 0px 0px 0px;
+    color: #f44336;
+    font-size: 14px;
+}
+
+.cart-page__order button {
+    margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+
+    .cart-page__content {
+        width: 1080px;
+    }
+
+    .cart-page-table__image {
+        width: 140px;
+        height: 140px;
+    }
+
+}

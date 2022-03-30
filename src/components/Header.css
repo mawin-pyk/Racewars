@@ -1,0 +1,125 @@
+.Header {
+    position: relative;
+    z-index: 9;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.header__logo {
+    margin-bottom: 20px;
+}
+
+.header__menu {
+    display: none;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom .dropdown__menu a span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f44336;
+}
+
+.header__search input {
+    width: 100px;
+}
+
+@media (min-width: 768px) {
+
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__logo {
+        width: 100px;
+        margin-bottom: unset;
+    }
+
+    .header__logo img {
+        width: 100%;
+    }
+
+    .header__menu {
+        display: block;
+    }
+
+    .header__menu a {
+        margin: 0px 5px;
+        padding: 10px;
+        position: relative;
+        border-bottom: 3px solid #ffffff;
+    }
+
+    .header__menu a:hover {
+        border-color: #3098d9;
+        transition: 0.5s;
+    }
+
+    .header__menu a span {
+        padding: 5px 10px;
+        position: absolute;
+        top: -16px;
+        left: 30px;
+        border-radius: 5px;
+        background-color: #f44336;
+    }
+
+    .header__menu p {
+        margin: 0px 5px;
+        padding: 10px;
+        display: inline;
+        border-bottom: 3px solid #ffffff;
+    }
+
+    .header__menu p:hover {
+        border-color: #3098d9;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .header-bottom .dropdown__icon {
+        display: none;
+    }
+
+    .header__search input {
+        width: 80px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .header-content {
+        width: 1080px;
+    }
+
+    .header__logo {
+        width: unset;
+    }
+
+    .header__menu a {
+        margin: 0px 20px;
+    }
+
+    .header__menu p {
+        margin: 0px 20px;
+    }
+
+    .header__search input {
+        width: 100px;
+    }
+
+}

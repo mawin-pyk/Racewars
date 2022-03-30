@@ -1,0 +1,20 @@
+.order__content {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.order__table {
+    margin-top: 40px;
+}
+
+@media (min-width: 1200px) {
+
+    .order__content {
+        width: 1080px;
+    }
+
+    .order__content h2 {
+        margin-top: 40px;
+    }
+
+}

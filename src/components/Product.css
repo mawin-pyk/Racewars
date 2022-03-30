@@ -1,0 +1,173 @@
+.Product {
+    min-height: 100%;
+}
+
+.product-content {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.type__filter {
+    margin-top: 40px;
+}
+
+.type__filter p {
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.type__filter p:hover {
+    cursor: pointer;
+}
+
+.activeFilter {
+    background-color: #3098d9;
+}
+
+.brand__filter {
+    margin-top: 40px;
+}
+
+.brand__filter p {
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.brand__filter p:hover {
+    cursor: pointer;
+}
+
+.promotion__area {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.promotion__area img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product__item {
+    margin-top: 40px;
+}
+
+.item__list {
+    margin: 40px 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.item-list__image {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.item-list__image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.item__list h3 {
+    margin-bottom: 20px;
+    color: #3098d9;
+}
+
+.item__list p {
+    margin-bottom: 20px;
+}
+
+.page__action {
+    margin-bottom: 40px;
+}
+
+.page__action button {
+    min-width: 30px;
+    margin-right: 10px;
+}
+
+.activeButton {
+    border-color: #000000;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+@media (min-width: 768px) {
+
+    .product-content {
+        display: flex;
+    }
+
+    .product-filter {
+        width: 200px;
+    }
+
+    .promotion__area {
+        margin-bottom: 40px;
+    }
+
+    .product__item {
+        width: 491.19px;
+        margin: 40px auto 0px auto;
+    }
+
+    .product__item h2 {
+        margin: 0px 0px 20px 40px;
+        text-align: center;
+    }
+
+    .item-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item__list {
+        width: 205px;
+        margin: 0px 0px 40px 40px;
+    }
+
+    .item-list__image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .page__action {
+        margin-left: 40px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .product-content {
+        width: 1080px;
+    }
+
+    .product-filter {
+        width: 250px;
+    }
+
+    .product__item {
+        width: 830px;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .item__list {
+        width: 236px;
+    }
+
+    .item-list__image {
+        width: 140px;
+        height: 140px;
+    }
+
+}

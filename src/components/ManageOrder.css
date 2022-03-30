@@ -1,0 +1,16 @@
+.manage-order__content {
+    width: 90%;
+    margin: 0px auto;
+}
+
+@media (min-width: 1200px) {
+
+    .manage-order__content {
+        width: 1080px;
+    }
+
+    .manage-order__content h2 {
+        margin-top: 40px;
+    }
+
+}

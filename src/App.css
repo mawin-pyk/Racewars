@@ -1,0 +1,271 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3098d9;
+}
+
+select {
+    padding: 4px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    outline: none;
+}
+
+select:focus {
+    border-color: #3098d9;
+}
+
+option {
+    font-size: 16px;
+}
+
+textarea {
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #3098d9;
+}
+
+button {
+    min-width: 70px;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button--blue {
+    border-color: #3098d9;
+    color: #3098d9;
+    background-color: #ffffff;
+}
+
+.button--blue:hover {
+    color: #ffffff;
+    background-color: #3098d9;
+    transition: 0.5s;
+}
+
+.button--red {
+    border-color: #f44336;
+    color: #f44336;
+    background-color: #ffffff;
+}
+
+.button--red:hover {
+    color: #ffffff;
+    background-color: #f44336;
+    transition: 0.5s;
+}
+
+/* dropdown */
+
+.dropdown__icon {
+    width: 30px;
+}
+
+.dropdown__menu {
+    width: 250px;
+    position: absolute;
+    display: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown__menu a {
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.dropdown__menu a:hover {
+    background-color: #3098d9;
+    transition: 0.5s;
+}
+
+.dropdown__menu p {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown__menu p:hover {
+    background-color: #3098d9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.dropdown__icon:hover .dropdown__menu {
+    display: block;
+}
+
+/* modal */
+
+.modal-box {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.modal__add form {
+    width: 297.5px;
+    padding: unset;
+    box-shadow: unset;
+}
+
+.modal__add h2 {
+    margin-bottom: 10px;
+}
+
+.modal__add input {
+    margin: 10px 0px;
+}
+
+.modal__add select {
+    margin: 10px 0px;
+}
+
+.modal__add textarea {
+    margin: 10px 0px;
+}
+
+.modal__add label {
+    width: 80px;
+    margin: 10px 0px;
+}
+
+.modal__add label:hover {
+    cursor: pointer;
+}
+
+.modal-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-image__link {
+    width: 99px;
+    height: 99px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.modal-image__link img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.modal-image__link svg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #f44336;
+}
+
+.modal-image__link svg:hover {
+    cursor: pointer;
+}
+
+.modal__add p {
+    color: #f44336;
+    font-size: 14px;
+}
+
+.modal__action {
+    display: flex;
+    justify-content: center;
+}
+
+.modal__action button {
+    margin: 10px 5px 0px 5px;
+}
+
+.modal__delete {
+    width: 297.5px;
+    text-align: center;
+}
+
+.modal__delete h2 {
+    margin-bottom: 10px;
+}
